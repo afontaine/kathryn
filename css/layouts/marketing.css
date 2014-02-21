@@ -170,14 +170,16 @@ a.pure-button-primary {
     border-radius: 5px;
     line-height: 1em;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: white;
     letter-spacing: 0.05em;
-    opacity: 0.8;
+    opacity: 0.9;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: larger;
 }
 
 /*
