@@ -133,7 +133,11 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #e63030	;
+    background: #c4b7ae;
+	background-image: url('../../img/common/kathryn-wide.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
