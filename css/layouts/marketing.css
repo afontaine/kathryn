@@ -169,6 +169,7 @@ a.pure-button-primary {
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* This is the subheading that appears on the blue section */
@@ -176,6 +177,7 @@ a.pure-button-primary {
     color: white;
     letter-spacing: 0.05em;
     opacity: 0.8;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*
