@@ -218,6 +218,14 @@ a.pure-button-primary {
         margin-right: 7px;
     }
 
+.link-subhead {
+	text-decoration: none;
+}
+
+a.link-subhead:hover {
+	color: #5e4934
+}
+
 /* This is the class used for the dark-background areas. */
 .ribbon {
     background: #8b0000;
