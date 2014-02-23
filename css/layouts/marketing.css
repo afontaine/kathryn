@@ -46,7 +46,13 @@ label {
     text-align: center;
 }
 
+a.contact {
+	color: #7f8c8d;
+}
 
+a.contact:hover {
+	color:#8b0000
+}
 
 /*
  * -- PURE FORM STYLES --
