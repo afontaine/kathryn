@@ -50,6 +50,14 @@ The content `<div>` is where all your content goes.
     line-height: 1.6em;
 }
 
+.content p a:link, a:visited, a:active {
+	color: #777;
+}
+
+.content p a:hover {
+	color: #8b0000;
+}
+
 .header {
      margin: 0;
      color: #333;
