@@ -133,16 +133,16 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #c4b7ae;
+    background: #c8bbb2;
 	background-image: url('../../img/common/kathryn-wide.jpg');
-	background-size: contain;
+	background-size: 1500px;
 	background-repeat: no-repeat;
 	background-position: 50% 70%;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
-    height: 88%;
+    height: 500px;
     top: 0;
     left: 0;
     position: fixed !important;
@@ -150,26 +150,46 @@ a.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    width: 80%;
+    width: 50%;
     height: 50%;
     margin: auto;
     position: absolute;
     top: 80px; left: 50px;
     text-align: center;
-    text-transform: uppercase;
-	
+		font-size: 0.8em;
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    padding: 1em 1.6em;
-    font-weight: 100;
-    border-radius: 5px;
-    line-height: 1em;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		background: #8b0000;
+		color: white;
+		width: 18ex;
+		position: absolute;
+		right: 0;
+		font-weight: 100;
+		margin-right: 1em;
+		padding: 1ex;
+		background-image: url('../../img/common/kath.svg');
+		background-size: 90%;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		height: 14ex;
+}
+
+.text-alt {
+	display: none;
+}
+
+.orykath{
+	font-size: 200%;
+	height: 4ex;
+	padding: 0.3ex 0;
+	margin-bottom:0.5ex;
+	line-height: 1.4ex;
+	border-top: 0.3ex solid #fff;
+	border-bottom: 0.3ex solid #fff;
+	font-weight: bold;
+	display: block;
 	
 }
 
@@ -188,10 +208,10 @@ a.pure-button-primary {
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
-    top: 87%;
+    top: 500px;
     width: 100%;
     min-height: 12%;
-    z-index: 2;
+    z-index: 10;
     background: white;
 
 }
@@ -293,6 +313,5 @@ a.link-subhead:hover {
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
     }
 }
