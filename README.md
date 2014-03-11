@@ -1,10 +1,13 @@
-Pure CSS Layout Examples
+Vote Kathryn for VPA
 ========================
+The website used for Kathryn Orydzuk's (@orykath) campaign for VP (Academic) for the University of Alberta's Students Union.
 
-Layout examples using [Pure CSS][pure] compiled from the [pure-site][] project.
+This website used two [Pure CSS][pure] layouts, the [Landing Page][landing] layout and the [Side Menu][side-menu] layout, which come from [Pure CSS][pure]
 
 [pure]: http://purecss.io/
 [pure-site]: https://github.com/yui/pure-site
+[landing]:http://purecss.io/layouts/marketing/
+[side-menu]:http://purecss.io/layouts/side-menu/
 
 
 License
